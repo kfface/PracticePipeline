@@ -1,0 +1,14 @@
+Case Study:
+design an automated workflow using scripting,opensource tools, and publicly availiable info to detct and 
+automattically remediate (at least creating a pull request) security vulnerabilities found in software dependencies.  
+For example, if one were to choose a tool that can scan for dependency vulnerabilities and then automate the output of this tool 
+to automatically create a github pull request for the new version of this dependency this would meet the overall criterai. 
+However there are opportunities to show creativity.
+
+Assumptions:
+the language being tested for dependency issues is Ruby utilizing the Rails platform 
+The CI/CD pipeline consists of github, codefresh and amazon eks
+while there are commercially availiable products that can accomplish this, these should be used as reference only
+scripting can be any language
+do not attempt to write a scanner from scratch, this is outside the scope of the challenge. 
+the goal here is to show the ability to understand automation of security output.
